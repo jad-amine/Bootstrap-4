@@ -12,57 +12,96 @@
   </head>
   <body>
 
-    <!--Remove border-radius with fluid // bg-info is light blue-->
-        <div class="jumbotron text-center jumbotron-fluid bg-info text-white"> 
-            <div class="container ">
-                <h1 class="display-1 ">Welcome to my Website</h1> <!--cooler font-->
-                <p class="lead">This is the landing page</p>  <!--bigger font-->
-              </div>
+    <nav class="navbar navbar-toggleable-sm ">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-taget="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="mainNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#" >About</a>
+            <a class="nav-item nav-link" href="#">Training</a>
+            <a class="nav-item nav-link" href="#" >Contact</a>
+          </div>
         </div>
+      </div>
+    </nav>
+
+    <!--Remove border-radius with fluid // bg-info is light blue-->
+    <div class="jumbotron text-center jumbotron-fluid bg-info text-white"> 
+      <div class="container ">
+        <h1 class="display-1 ">Welcome to my Website</h1> <!--cooler font-->
+        <p class="lead">This is the landing page</p>  <!--bigger font-->
+      </div>
+    </div>
 
 
-        <div class="container text-muted "> <!--make text lighter-->
+    <div class="container text-muted "> <!--make text lighter-->
 
-          <div class="row">
-            <div class="col-md-3">
-              <div class="card">
-                <img src="public/mongo.png" alt="">
-                <div class="card-block">
-                  <h3 class="card-title">Mongo.DB</h3>
-                  <p>ristsadlfkj ristsadlfkj </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="public/webpack.png" alt="">
-                <div class="card-block">
-                  <h3 class="card-title">Webpack</h3>
-                  <p>ristsadlfkj ristsadlfkj </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="public/node.png" alt="">
-                <div class="card-block">
-                  <h3 class="card-title">Node.js</h3>
-                  <p>ristsadlfkj ristsadlfkj </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="public/react.png" alt="">
-                <div class="card-block">
-                  <h3 class="card-title">React</h3>
-                  <p>ristsadlfkj ristsadlfkj </p>
-                </div>
-              </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="public/mongo.png" alt="">
+            <div class="card-block">
+              <h3 class="card-title">Mongo.DB</h3>
+              <p>ristsadlfkj gasfdsddlfkj sdfgsadlfkj sdfaddlfk asffdadlfkj adfsadlfkj</p>
             </div>
           </div>
         </div>
-      
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="public/webpack.png" alt="">
+            <div class="card-block">
+              <h3 class="card-title">Webpack</h3>
+              <p>ristsadlfkj asdfasdlfkj asdffdlfkj sdfsdfadlfkj asdfadlfkj asdfadlfkj </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="public/node.png" alt="">
+            <div class="card-block">
+              <h3 class="card-title">Node.js</h3>
+              <p>ristsadlfkj ristsadlfkj ristsadlfkj ristsadlfkj ristsadlfkj ristsadlfkj</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="public/react.png" alt="">
+            <div class="card-block">
+              <h3 class="card-title">React</h3>
+              <p>ristsadlfkj ristsadlfkj ristsadlfkj ristsadlfkj ristsadlfkj ristsadlfkj</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="display-4 text-center py-5 my-4">Meet the Speakers</h2>
+
+    <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+      <a class="nav-link active" href="#ninja" data-toggle="tab">Jad Amine</a>
+      <a class="nav-link" href="#wizard" data-toggle="tab">The dojo</a>
+      <a class="nav-link" href="#captain" data-toggle="tab">Blue Bird</a>
+    </nav>
+
+    <div class="tab-content py-5 mx-5">
+      <div class="tab-pane active" id="ninja">
+        <h3>The Net Ninja</h3>
+        <p>Lorem epsum dora boseke Lorem epsum dora boseke Lorem epsum dora boseke Lorem epsum dora boseke </p>
+      </div>
+      <div class="tab-pane" id="wizard">
+        <h3>The Wizard</h3>
+        <p>Lorem epsum dora boseke Lorem epsum dora boseke Lorem epsum dora boseke Lorem epsum dora boseke </p>
+      </div>
+      <div class="tab-pane" id="captain">
+        <h3>The Captain</h3>
+        <p>Lorem epsum dora boseke Lorem epsum dora boseke Lorem epsum dora boseke Lorem epsum dora boseke </p>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
